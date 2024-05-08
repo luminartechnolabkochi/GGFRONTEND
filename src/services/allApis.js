@@ -18,7 +18,7 @@ export const jobCardDetailApi= async(id)=>{
     return await commonApi("GET",`${baseUrl}/jobcard/${id}/`,"")
 }
 
-export const addWork=async (id,data)=>{
+export const addWorkApi=async (id,data)=>{
 
     return await commonApi("POST",`${baseUrl}/jobcard/${id}/add_job/`,data)
 }
