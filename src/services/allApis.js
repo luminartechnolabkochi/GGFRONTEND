@@ -22,3 +22,10 @@ export const addWorkApi=async (id,data)=>{
 
     return await commonApi("POST",`${baseUrl}/jobcard/${id}/add_job/`,data)
 }
+
+
+export const updateWorkStatusApi=async (id)=>{
+
+    return await commonApi("POST",`${baseUrl}/jobcard/${id}/mark_as_done/`)
+}
+

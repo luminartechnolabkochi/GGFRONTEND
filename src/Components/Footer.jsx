@@ -4,7 +4,7 @@ import { Navbar,Container } from 'react-bootstrap'
 
 const Footer = () => {
   return (
-    <div>
+    <div className='mt-5'>
        <Navbar className="bg-body-tertiary fixed-bottom">
         <Container>
           <Navbar.Brand href="#home">
